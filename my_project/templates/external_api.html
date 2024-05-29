@@ -1,0 +1,31 @@
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django show api</title>
+    </head>
+<body>
+    <strong>COVID 19...</strong>  
+
+    {% for i in response %}
+
+    {{i.name}}
+
+    {% endfor %}
+  
+</body>
+</html> {% endcomment %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19 India Data</title>
+</head>
+<body>
+    <h1>COVID-19 India Data</h1>
+    <p>Total Confirmed Cases: {{ total_confirmed_cases }}</p>
+    <p>Total Recovered Cases: {{ total_recovered_cases }}</p>
+    </body>
+</html>
+
